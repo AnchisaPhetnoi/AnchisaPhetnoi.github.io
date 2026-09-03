@@ -4,3 +4,5 @@
 @media(max-width:560px){.project-gallery{grid-template-columns:1fr}.project-gallery img{height:auto;max-height:260px}}@media(max-width:420px){.layout{width:calc(100% - 30px)}.portrait{width:190px;height:190px}.intro,.email{text-align:left}.profile-links{font-size:14px}main{padding-top:38px}h2{font-size:24px}h3{font-size:18px}}
 
 .workflow-preview{margin:14px 0 18px;border:1px solid var(--rule);border-radius:8px;overflow:hidden;background:#f7f7f7}.workflow-preview a{display:block}.workflow-preview img{display:block;width:100%;height:auto}.workflow-preview a:hover img{opacity:.96}
+
+.project-note{padding:10px 12px;border-left:3px solid #d8a400;background:#fff9df;color:#6f642f;border-radius:3px}
