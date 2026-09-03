@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUT MATH</title>
+
+    <style>
+        /* Start Global Rules */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    a {
+      text-decoration: none;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /* Small */
+    @media (min-width: 768px) {
+      .container {
+        width: 750px;
+      }
+    }
+    /* Medium */
+    @media (min-width: 992px) {
+      .container {
+        width: 970px;
+      }
+      }
+    /* Large */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px;
+      }
+    }
+    /* End Global Rules */
+    
+    /* Start Landing Page */
+    .landing-page header {
+      min-height: 80px;
+      display: flex;
+    }
+    @media (max-width: 767px) {
+      .landing-page header {
+        min-height: auto;
+        display: initial;
+      }
+    }
+    .landing-page header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .container {
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+    .landing-page header .logo {
+      color: #5d5d5d;
+      font-style: italic;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+    .landing-page header .links {
+      display: flex;
+      align-items: center;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .links {
+        text-align: center;
+        gap: 10px;
+      }
+    }
+    .landing-page header .links li {
+      margin-left: 30px;
+      color: #5d5d5d;
+      cursor: pointer;
+      transition: .3s;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .links li {
+        margin-left: auto;
+      }
+    }
+    .landing-page header .links li:last-child {
+      border-radius: 20px;
+      padding: 10px 20px;
+      color: #FFF;
+      background-color: #6c63ff;
+    }
+    .landing-page header .links li:not(:last-child):hover {
+      color: #6c63ff;
+    }
+    .landing-page .content .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 140px;
+      min-height: calc(100vh - 80px);
+    }
+    @media (max-width: 767px) {
+      .landing-page .content .container {
+        gap: 0;
+        min-height: calc(100vh - 101px);
+        justify-content: center;
+        flex-direction: column-reverse;
+      }
+    }
+    @media (max-width: 767px) {
+      .landing-page .content .info {
+        text-align: center;
+        margin-bottom: 15px 
+      }
+    }
+    .landing-page .content .info h1 {
+      color: #5d5d5d;
+      font-size: 44px;
+    }
+    .landing-page .content .info p {
+      margin: 0;
+      line-height: 1.6;
+      font-size: 15px;
+      color: #5d5d5d;
+    }
+    .landing-page .content .info button {
+      border: 0;
+      border-radius: 20px;
+      padding: 12px 30px;
+      margin-top: 30px;
+      cursor: pointer;
+      color: #FFF;
+      background-color: #6c63ff;
+    }
+    .landing-page .content .image img {
+      max-width: 100%;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+    
+    section {
+      margin-bottom: 20px;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    footer {
+      background-color: #fff;
+      color: #000;
+      padding: 20px;
+    }
+    /* End Landing Page */
+    /* กำหนด margin-bottom เพื่อให้มีช่องว่างด้านล่างของ ul */
+    ul {
+      margin-bottom: 20px; /* ปรับตามความต้องการ */
+    }
+    /* กำหนดสีของลิงก์ หน้าแรก แบบทดสอบ หมวดหมู่  คณิตศาสตร์ประยุคต์ 1 คณิตศาสตร์ประยุคต์ 2 เข้าสู่ระบบ เป็นขาว */
+a {
+            color: rgb(69, 68, 68);
+        }
+</style>
+
+
+
+</head>
+<body>
+    </html><!-- Start Landing Page -->
+    <div class="landing-page">
+      <header>
+        <div class="container">
+          <a href="#" class="logo">
+                  CUT 
+            <b>MATH</b></a>
+          <ul class="links">
+            <li><a title="หน้าหลัก" href="/Make-a-website/HTML/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%81.html"
+              target="_blank"> หน้าหลัก </a></li>
+            <li>แบบทดสอบ</li>
+            <li>หมวดหมู่</li>
+            <li><a title="เข้าสู่ระบบ" href="/Make-a-website/HTML/%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%B4%E0%B8%99.html#"
+              target="_blank">  เข้าสู่ระบบ </a></li>
+            
+         </ul>
+        </div>
+    </header>
+    <body>
+ 
+        <!-- ใช้ div เป็น container -->
+        <div class="container">
+          <!-- ใช้ div เป็นข้อความหรือเนื้อหา -->
+          <div class="content">  
+
+            <h2>จำนวนจริงและพหุนาม</h2>
+            <h4>โครงสร้างของระบบจำนวนจริง</h4>
+<br>ก่อนอื่นมาดูโครงสร้างของจำนวนจริงกันก่อน จำนวนจริงประกอบไปด้วยจำนวนตรรกยะ และจำนวนอตรรกยะ<br>
+<br>จำนวนตรรกยะ คือ จำนวนที่เขียนเป็นเศษส่วนของจำนวนเต็มได้, ทศนิยมซ้ำ, รากที่ถอดได้ลงตัว<br>
+<br>จำนวนอตรรกยะ คือ จำนวนที่เขียนเป็นเศษส่วนของจำนวนเต็มไม่ได้, ทศนิยมที่ไม่ซ้ำ, รากที่ถอดได้ไม่ลงตัว, ค่าพิเศษ เช่น π,e<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4>การเท่ากันของจำนวนจริง</h4>
+<br>
+การเท่ากันในที่นี้มันก็คือ สมการนั่นเอง เป็นคุณสมบัติพื้นฐานที่จะช่วยให้น้องๆ แก้สมการได้ง่ายขึ้น และ ถ้า ab=0 แล้ว a=0 หรือ b=0
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4>การมากกว่า และน้อยกว่าของจำนวนจริง</h4>
+<br>ถ้าการเท่ากัน คือสมการ การมากกว่าและน้อยกว่า ก็คืออสมการนั่นเอง การคูณและการหารตลอดด้วยจำนวนลบจะทำให้เครื่องหมายอสมการกลับข้าง<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4>การบวกและการคูณของจำนวนจริง</h4>
+<h4>สมบัติทั่วไปของการบวกและการคูณจำนวนจริง</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4>การดำเนินการของพหุนาม</h4>
+<br>เอกลักษณ์ที่ถูกนำไปใช้บ่อยในการแก้สมการพหุนาม หรือ อสมการพหุนาม ถ้าน้องๆ รู้เอกลักษณ์เหล่านี้จะช่วยให้น้องๆ แก้โจทย์ได้ง่ายและเร็วขึ้น<br>
+<li>พหุนามคือ พจน์ติดตัวแปรที่เขียนได้ในรูป anxn+an−1xn−1+an−2xn−2+…+a1+a0</li>
+<br>-n คือ ดีกรี หรือ กำลังของพหุนาม<br>
+<br>-an คือ สัมประสิทธิ์ของพจน์แรก<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4>การแยกตัวประกอบ</h4>
+
+
+
+
+
+
+
+
+
+<h4>รวมสูตรแยกตัวประกอบ</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+<h4>ตัวอย่างโจทย์</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4>วิธีการแยกตัวประกอบ</h4>
+<br>และถ้าโจทย์ไม่เป็นไปตามรูปแบบที่กำหนดเราก็ต้องแยกตัวประกอบเองวิธีที่ใช้แยกบ่อยๆ คือ<br>
+<br>1. แยกตัวประกอบแบบ<br>
+<br>2 วงเล็บ <br>
+<br>วิธีการคือให้หาว่าตัวเลขอะไรคูณกันได้พจน์สุดท้ายและบวกกันได้พจน์กลาง ตัวอย่างเช่น<br>
+
+
+
+
+<br>2. การดึงตัวร่วม เช่น<br>
+
+
+
+
+
+
+
+
+
+
+<br>3. การหารสังเคราะห์ วิธีนี้จะใช้กับพหุนามดีกรีสูงๆ ได้วิธีการคือ<br>
+<br>Step 1. เรียงสัมประสิทธิ์จากดีกรีมากไปน้อย
+<br>
+Step 2. หาตัวประกอบของพจน์สุดท้ายในที่นี้คือ 
+         3 ดังนั้น ตัวประกอบคือ 1, -1, 3, -3
+         <br>
+Step 3. ลองเอาตัวประกอบไปหารสังเคราะห์ เทคนิคคือให้ลองจากเลขน้อยๆ ก่อนจากตัวอย่างพี่ลองเอาเลข 1 ไปหาร
+<br>
+Step 4. ชักสัมประสิทธิ์ตัวแรกลงมา
+<br>
+Step 5. เอาตัวประกอบที่เลือก (เลข 1) ไปคูณกับเลขที่ชักลงมาและเอาคำตอบที่ได้ไปไว้ในช่องสัมประสิทธิ์ถัดไปจากตัวอย่างคือ 1×1 = 1
+<br>
+Step 6. เอาคำตอบที่ได้บวกสัมประสิทธิ์ตัวถัดไป จากตัวอย่างคือ -3+1 = -2
+<br>
+Step 7. ทำแบบนี้ไปเรื่อยๆ จนถึงตัวสุดท้ายถ้าได้คำตอบสุดท้ายเป็นศูนย์ แสดงว่าตัวประกอบที่เลือกใช้ได้ แต่ถ้าไม่ได้ 0 ก็ต้องลองตัวอื่นต่อไป
+<br>
+
+
+
+
+
+
+
+
+<h4>สมการพหุนาม</h4>
+<br>สมการพหุนามกำลังสูงกว่าสอง แก้ได้โดย แยกตัวประกอบลดทอนกำลังไปเรื่อยๆ<br>
+
+
+
+
+
+
+
+
+<h4>อสมการพหุนาม</h4>
+<br>ถ้าอสมการพหุนามมีพจน์ที่สูงกว่าสอง ให้พิจารณาเลขชี้กำลัง ถ้ากำลังเป็นคู่ให้แยกคิดต่างหาก และถ้ากำลังเป็นคี่ให้ทอนเหลือ 1<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

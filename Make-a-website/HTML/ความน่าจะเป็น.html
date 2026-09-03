@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUT MATH</title>
+
+    <style>
+        /* Start Global Rules */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    a {
+      text-decoration: none;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /* Small */
+    @media (min-width: 768px) {
+      .container {
+        width: 750px;
+      }
+    }
+    /* Medium */
+    @media (min-width: 992px) {
+      .container {
+        width: 970px;
+      }
+      }
+    /* Large */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px;
+      }
+    }
+    /* End Global Rules */
+    
+    /* Start Landing Page */
+    .landing-page header {
+      min-height: 80px;
+      display: flex;
+    }
+    @media (max-width: 767px) {
+      .landing-page header {
+        min-height: auto;
+        display: initial;
+      }
+    }
+    .landing-page header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .container {
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+    .landing-page header .logo {
+      color: #5d5d5d;
+      font-style: italic;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+    .landing-page header .links {
+      display: flex;
+      align-items: center;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .links {
+        text-align: center;
+        gap: 10px;
+      }
+    }
+    .landing-page header .links li {
+      margin-left: 30px;
+      color: #5d5d5d;
+      cursor: pointer;
+      transition: .3s;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .links li {
+        margin-left: auto;
+      }
+    }
+    .landing-page header .links li:last-child {
+      border-radius: 20px;
+      padding: 10px 20px;
+      color: #FFF;
+      background-color: #6c63ff;
+    }
+    .landing-page header .links li:not(:last-child):hover {
+      color: #6c63ff;
+    }
+    .landing-page .content .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 140px;
+      min-height: calc(100vh - 80px);
+    }
+    @media (max-width: 767px) {
+      .landing-page .content .container {
+        gap: 0;
+        min-height: calc(100vh - 101px);
+        justify-content: center;
+        flex-direction: column-reverse;
+      }
+    }
+    @media (max-width: 767px) {
+      .landing-page .content .info {
+        text-align: center;
+        margin-bottom: 15px 
+      }
+    }
+    .landing-page .content .info h1 {
+      color: #5d5d5d;
+      font-size: 44px;
+    }
+    .landing-page .content .info p {
+      margin: 0;
+      line-height: 1.6;
+      font-size: 15px;
+      color: #5d5d5d;
+    }
+    .landing-page .content .info button {
+      border: 0;
+      border-radius: 20px;
+      padding: 12px 30px;
+      margin-top: 30px;
+      cursor: pointer;
+      color: #FFF;
+      background-color: #6c63ff;
+    }
+    .landing-page .content .image img {
+      max-width: 100%;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+    
+    section {
+      margin-bottom: 20px;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    footer {
+      background-color: #fff;
+      color: #000;
+      padding: 20px;
+    }
+    /* End Landing Page */
+    /* กำหนด margin-bottom เพื่อให้มีช่องว่างด้านล่างของ ul */
+    ul {
+      margin-bottom: 20px; /* ปรับตามความต้องการ */
+    }
+     /* กำหนดสีของลิงก์ หน้าแรก แบบทดสอบ หมวดหมู่  คณิตศาสตร์ประยุคต์ 1 คณิตศาสตร์ประยุคต์ 2 เข้าสู่ระบบ เป็นขาว */
+a {
+            color: rgb(69, 68, 68);
+        }
+</style>
+
+
+
+</head>
+<body>
+    </html><!-- Start Landing Page -->
+    <div class="landing-page">
+      <header>
+        <div class="container">
+          <a href="#" class="logo">
+                  CUT 
+            <b>MATH</b></a>
+          <ul class="links">
+            <li><a title="หน้าหลัก" href="/Make-a-website/HTML/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%81.html"
+              target="_blank"> หน้าหลัก </a></li>
+            <li>แบบทดสอบ</li>
+            <li>หมวดหมู่</li>
+            <li><a title="เข้าสู่ระบบ" href="/Make-a-website/HTML/%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%B4%E0%B8%99.html#"
+              target="_blank">  เข้าสู่ระบบ </a></li>
+            
+         </ul>
+        </div>
+    </header>
+    <body>
+ 
+        <!-- ใช้ div เป็น container -->
+        <div class="container">
+          <!-- ใช้ div เป็นข้อความหรือเนื้อหา -->
+          <div class="content">  
+            <h1>ความน่าจะเป็น</h1>
+
+           <br> ความน่าจะเป็น<br>
+<br>1.การทดลองสุ่มและเหตุการณ์<br>
+<br>2.ความน่าจะเป็น<br>
+<br>3.กฎที่สำคัญบางประการของความน่าจะเป็น<br>
+
+
+
+
+
+
+
+
+<h4>หลักการบวกและการคูณ</h4>
+<br>ในการที่เราจะนับจำนวนสิ่งของ เหตุการณ์ หรือ จำนวนวิธีในการทำงานบางอย่าง อาจจะสามารถนับได้โดยตรง แต่หากสิ่งที่จะนับมีจำนวนมาก <br>
+<br>อาจจะทำให้การนับโดยตรงนั้นทำได้ยาก จึงมีหลักการนับ เพื่อช่วยให้การนับสิ่งที่มีจำนวนเยอะ ทำได้ง่ายขึ้น<br>
+
+<h4>หลักการบวก</h4>
+<br>n1 + n2 + … + nn<br>
+
+<h4>หลักการคูณ</h4>
+<br>n1 ✕ n2 ✕ … ✕ nn<br>
+
+
+
+<h4>หลักการเรียงสลับเปลี่ยน</h4>
+<br>หากมีสิ่งของอยู่ n ชิ้นแตกต่างกัน หากต้องการจะนำสิ่งของ r ชิ้นจากสิ่งของที่มีอยู่ นำมาเรียงลำดับจะได้ว่า<br>
+<br>ขั้นตอนที่ 1 เลือกของชิ้นที่ 1 มาวาง ซึ่งจะเป็นชิ้นใดก็ได้ มี n ชิ้น<br>
+<br>ขั้นตอนที่ 2 เลือกของชิ้นที่ 2 มาวาง โดยเป็นชิ้นที่เหลือจากการวางชิ้นที่ 1 มี n-1 ชิ้น<br>
+<br>ขั้นตอนที่ r เลือกของชิ้นที่ r โดยเป็นชิ้นที่เหลือจากการวางชิ้นที่ r-1 มี n-r+1 ชิ้น<br>
+
+
+
+<h4>การจัดหมู่</h4>
+<br>การเลือกกลุ่มของสิ่งของมา โดยไม่คำนึงถึงลำดับในการเรียงของสิ่งของในกลุ่มที่เลือกมา หากกลุ่มใดมีสิ่งของในกลุ่มเหมือนกัน จะนับเป็นการจัดหมู่เพียง 1 วิธี<br>
+
+
+
+<h4>การทดลองสุ่มและเหตุการณ์</h4>
+<br>ปริภูมิตัวอย่าง หรือ แซมเปิลสเปซ<br>
+
+
+
+
+
+
+
+
+<h4>ความน่าจะเป็น</h4>
+
+
+
+
+
+
+<br>เมื่อ n(E) แทนจำนวนสมาชิกของเหตุการณ์ E<br>
+<br>และ n(s) แทนจำนวนสมาชิกของปริภูมิตัวอย่าง S<br>
+<br>สรุปความน่าจะเป็น สมบัติพื้นฐาน<br>
+<br>สำหรับเหตุการณ์ E ใด ๆ จะได้ว่า 0 น้อยกว่าหรือเท่ากับ P(E) น้อยกว่าหรือเท่ากับ 1<br>
+<br>ความน่าจะเป็นของปริภูมิตัวอย่าง S เท่ากับ 1 นั่นคือ P(S) = 1<br>
+<br>ความน่าจะเป็นของเหตุการณ์ที่เป็นเซตว่างเท่ากับ 0 นั่นคือ P() = 0<br>
+
+<h4>ตัวอย่าง</h4>
+<br>ในการเลือกจำนวนสองจำนวนโดยไม่เจาะจงจาก {1,2,3,4,5} โดยเลือกทีละจำนวนไม่ให้ซ้ำกัน จงหาความน่าจะเป็นที่จะได้จำนวนแรกมากกว่า 3<br>
+<br>วิธีทำ<br>
+<br>ให้ S แทนปริภูมิตัวอย่างของการทดลองสุ่มนี้<br>
+<br>จากหลักการคูณ จะได้ว่า วิธีเลือกจำนวนสองจำนวนนี้ไม่ซ้ำกันจาก {1,2,3,4,5} ทั้งหมด 5 x 4 = 20 วิธี ดังนั้น n(s) = 20<br>
+<br>ให้ E แทนเหตุการณ์ที่จะได้จำนวนแรกมากกว่า 3 และจำนวนทั้งสองไม่ซ้ำกัน<br>
+<br>หาจำนวนสมาชิก E ได้ดังนี้<br>
+<br>ขั้นที่ 1 เลือกจำนวนแรกได้ 2 วิธี เลือก 4 หรือ 5<br>
+<br>ขั้นที่ 2 ในแต่ละวิธีของขั้นที่ 1 จะมีวิธีเลือกจำนวนที่สองที่ไม่ซ้ำกับจำนวนแรกได้ 4 วิธี<br>
+<br>ดังนั้น n(E) = 2 x 4 = 8<br>
+<br>จะได้ P(E) = n(E)n(s) = 820 = 25 ( ใส่รูป 2 )<br>
+<br>ดังนั้น ความน่าจะเป็นที่จะได้จำนวนแรกมากกว่า 3 เท่ากับ 2/5<br>
+
+
+
+
+
+<h4>กฎที่สำคัญบางประการของความน่าจะเป็น</h4>
+<br>ปริภูมิตัวอย่างและเหตุการณ์ต่างก็เป็นเซต โดยในที่นี้ เอกภพสัมพัทธ์คือปริภูมิตัวอย่าง ซึ่งมีเหตุการณ์เป็นสับเซต<br>
+<br> ดังนั้น สมบัติพื้นฐานของความน่าจะเป็นได้มาจากสมบัติของการดำเนินการของเซต<br>
+<br>ให้ S = ปริภูมิตัวอย่างของการทดลองสุ่มหนึ่ง<br>
+<br>A , B = เหตุการณ์<br>
+<br>นั่นคือ A S และ B S<br>
+<br>จะได้ A B เป็นเหตุการณ์ที่ประกอบด้วยสมาชิกในเหตุการณ์ A หรือ เหตุการณ์ B หรือ ทั้งสองเหตุการณ์<br>
+<br>นั่นคือ A B = { x I x A หรือ x B}<br>
+
+
+
+<h4>ทฤษฎีบท</h4>
+<br>ให้ S เป็นปริภูมิตัวอย่างซึ่งเป็นเซตจำกัด และ A,B เป็นเหตุการณ์ใด ๆ จะได้ว่า<br>
+<br>P(A U B) = P(A) + P(B) – P(AB)<br>
+<br>ถ้า A B = แล้ว P(A U B) = P(A) + P(B)<br>
+<br>P(A’) = 1 – P(A)<br>
+<br>P(A-B) = P(A) – P(AB)<br>
+
+
+
+<br>ในการทอดลูกเต๋าเที่ยงตรงสองลูกพร้อมกันหนึ่งครั้ง จงหาความน่าจะเป็นของเหตุการณ์ที่<br>
+<br>ลูกเต๋าทั้งสองลูกขึ้นแต้มเท่ากันหรือผลบวกของแต้มมากว่า 10<br>
+<br>ลูกเต๋าทั้งสองลูกขึ้นแต้มเท่ากันหรือผลบวกของแต้มเป็น 7<br>
+<br>ลูกเต๋าทั้งสองลูกขึ้นแต้มไม่เท่ากัน<br>
+<br>ลูกเต๋าทั้งสองลูกขึ้นแต้มเท่ากันแต่ผลบวกของแต้ไม่มากกว่า 10<br>
+<br>วิธีทำ แทน S แทนปริภูมิตัวอย่างของการทดลองสุ่มนี้<br>
+<br>A แทนเหตุการณ์ที่ลูกเต๋าทั้งสองขึ้นแต้มเท่ากัน<br>
+<br>B แทนเหตุการณ์ที่ผลบวกของแต้มบนหน้าลูกเต๋าทั้งสองเป็น 7<br>
+<br>และ C แทนเหตุการณ์ที่ผลบวกของแต้มบนหน้าลูกเต๋าทั้งสองมากกว่า 10<br>
+<br>จะได้ S = {(1,1),(1,2),(1,3), (1,4),(1,5),(1,6),<br>
+<br>(2,1),(2,2),(2,3), (2,4),(2,5),(2,6)<br>
+<br>(3,1),(3,2),(3,3), (3,4),(3,5),(3,6)<br>
+<br>(4,1),(4,2),(4,3), (4,4),(4,5),(4,6)<br>
+<br>(5,1),(5,2),(5,3), (5,4),(5,5),(5,6)<br>
+<br>(6,1),(6,2),(6,3), (6,4),(6,5),(6,6)}<br>
+<br>A = {(1,1),(2,2),(3,3), (4,4),(5,5),(6,6)}<br>
+<br>B = {(1,6),(2,5),(3,4), (4,3),(5,2),(6,1)}<br>
+<br>C = {(5,6),(6,5),(6,6)}<br>
+
+
+
+
+
+<br>ความหมายและชนิดของตัวแปรสุ่ม<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>การแจกแจงความน่าจะเป็นของตัวแปรสุ่มไม่ต่อเนื่อง<br>
+
+
+
+
+
+
+
+
+
+
+
+
+<br>การแจกแจงเอกรูปไม่ต่อเนื่อง<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>การแจกแจงทวินาม<br>
+
+
+
+
+
+
+
+
+
+
+<br>การแจกแจงความน่าจะเป็นของตัวแปรสุ่มต่อเนื่อง<br>
+
+
+
+
+
+
+
+
+
+
+<br>การแจกแจงปกติ<br>
+
+
+
+
+
+
+
+
+
+<br>การแจกแจงปกติมาตรฐาน<br>
+
+
+
+
+
+
+
+
+<br>ความน่าจะเป็น สูตร ทั้งหมดที่ควรจำได้<br>
+
+
+
+
+
+
+
+
+
+
+<br>คำถามที่พบบ่อย (FAQ)<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

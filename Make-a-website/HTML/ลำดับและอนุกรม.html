@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUT MATH</title>
+
+    <style>
+        /* Start Global Rules */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    a {
+      text-decoration: none;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /* Small */
+    @media (min-width: 768px) {
+      .container {
+        width: 750px;
+      }
+    }
+    /* Medium */
+    @media (min-width: 992px) {
+      .container {
+        width: 970px;
+      }
+      }
+    /* Large */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px;
+      }
+    }
+    /* End Global Rules */
+    
+    /* Start Landing Page */
+    .landing-page header {
+      min-height: 80px;
+      display: flex;
+    }
+    @media (max-width: 767px) {
+      .landing-page header {
+        min-height: auto;
+        display: initial;
+      }
+    }
+    .landing-page header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .container {
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+    .landing-page header .logo {
+      color: #5d5d5d;
+      font-style: italic;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+    .landing-page header .links {
+      display: flex;
+      align-items: center;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .links {
+        text-align: center;
+        gap: 10px;
+      }
+    }
+    .landing-page header .links li {
+      margin-left: 30px;
+      color: #5d5d5d;
+      cursor: pointer;
+      transition: .3s;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .links li {
+        margin-left: auto;
+      }
+    }
+    .landing-page header .links li:last-child {
+      border-radius: 20px;
+      padding: 10px 20px;
+      color: #FFF;
+      background-color: #6c63ff;
+    }
+    .landing-page header .links li:not(:last-child):hover {
+      color: #6c63ff;
+    }
+    .landing-page .content .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 140px;
+      min-height: calc(100vh - 80px);
+    }
+    @media (max-width: 767px) {
+      .landing-page .content .container {
+        gap: 0;
+        min-height: calc(100vh - 101px);
+        justify-content: center;
+        flex-direction: column-reverse;
+      }
+    }
+    @media (max-width: 767px) {
+      .landing-page .content .info {
+        text-align: center;
+        margin-bottom: 15px 
+      }
+    }
+    .landing-page .content .info h1 {
+      color: #5d5d5d;
+      font-size: 44px;
+    }
+    .landing-page .content .info p {
+      margin: 0;
+      line-height: 1.6;
+      font-size: 15px;
+      color: #5d5d5d;
+    }
+    .landing-page .content .info button {
+      border: 0;
+      border-radius: 20px;
+      padding: 12px 30px;
+      margin-top: 30px;
+      cursor: pointer;
+      color: #FFF;
+      background-color: #6c63ff;
+    }
+    .landing-page .content .image img {
+      max-width: 100%;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+    
+    section {
+      margin-bottom: 20px;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    footer {
+      background-color: #fff;
+      color: #000;
+      padding: 20px;
+    }
+    /* End Landing Page */
+    /* กำหนด margin-bottom เพื่อให้มีช่องว่างด้านล่างของ ul */
+    ul {
+      margin-bottom: 20px; /* ปรับตามความต้องการ */
+    }
+     /* กำหนดสีของลิงก์ หน้าแรก แบบทดสอบ หมวดหมู่  คณิตศาสตร์ประยุคต์ 1 คณิตศาสตร์ประยุคต์ 2 เข้าสู่ระบบ เป็นขาว */
+a {
+            color: rgb(69, 68, 68);
+        }
+</style>
+
+
+
+</head>
+<body>
+    </html><!-- Start Landing Page -->
+    <div class="landing-page">
+      <header>
+        <div class="container">
+          <a href="#" class="logo">
+                  CUT 
+            <b>MATH</b></a>
+          <ul class="links">
+            <li><a title="หน้าหลัก" href="/Make-a-website/HTML/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%81.html"
+              target="_blank"> หน้าหลัก </a></li>
+            <li>แบบทดสอบ</li>
+            <li>หมวดหมู่</li>
+            <li><a title="เข้าสู่ระบบ" href="/Make-a-website/HTML/%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%B4%E0%B8%99.html#"
+              target="_blank">  เข้าสู่ระบบ </a></li>
+            
+         </ul>
+        </div>
+    </header>
+    <body>
+ 
+        <!-- ใช้ div เป็น container -->
+        <div class="container">
+          <!-- ใช้ div เป็นข้อความหรือเนื้อหา -->
+          <div class="content">  
+            <h1>ลำดับและอนุกรม</h1>
+          <br> 1. ลำดับ<br>
+                <br> 1.1 ความหมายของลำดับ<br>
+                <br> 1.2 ลำดับเลขคณิต<br>
+                 <br>1.3 ลำดับเรขาคณิต<br>
+                 <br>1.4 ลำดับฮาร์มอนิก<br>
+           <br> 2.ลิมิตของลำดับอนันต์และอนุกรม<br>
+          
+                <br> 3.1 อนุกรมเลขคณิต<br>
+                <br> 3.2 อนุกรมเรขาคณิต<br>
+                 <br>3.3 อนุกรมอนันต์<br>
+           <br> 3.สัญลักษณ์แสดงการบวก<br>
+            <br> 4.การประยุกต์ของลำดับและอนุกรม<br>
+<br>
+<br>
+
+
+
+     <li>ลำดับ หมายถึง ฟังก์ชันที่มีโดเมนเป็นเซตของจำนวนเต็มบวกที่เรียงจากน้อยไปมากโดยเริ่มตั้งแต่ 1 ซึ่งลำดับนั้น
+    เป็นจำนวนหรือพจน์ที่เขียนเรียงกันภายใต้กฏเกณฑ์อย่างใดอย่างหนึ่งเป็นลำดับทั่ว ๆ ไป โดยแบ่งออกเป็น 2 ชนิด ได้แก่</li>
+
+<li>ลำดับจำกัด คือ ลำดับซึ่งมีจำนวนพจน์จำกัด โดยฟังก์ชันจะเป็นลำดับที่มีโดเมนเป็น { 1, 2, 3, …, n }</li>
+<li>ลำดับอนันต์ คือ ลำดับซึ่งมีจำนวนพจน์ไม่จำกัด โดยฟังก์ชันเป็นลำดับที่มีโดเมนเป็น { 1, 2, 3, … }</li>
+<li>ลำดับ คือ กลุ่มของตัวเลขที่มีความสัมพันธ์กัน ซึ่งแบ่งออกเป็น 2 รูปแบบใหญ่ ๆ คือ</li>
+<li>ลำดับเลขคณิต คือ ลำดับที่มีผลต่างของพจน์ที่ n+1 กับพจน์ที่ n โดยมีค่าคงที่เป็นผลต่างร่วม (d) ตัวอย่าง 1, 3, 5, 7, 9 …. มี d = 2 9, 6, 3, 0, …. มี d = -3</li>
+<li>ลำดับเรขาคณิต คือ ลำดับที่มีอัตราส่วนของพจน์ที่ n+1 กับพจน์ที่ n โดยมีค่าคงที่เป็นอัตราส่วนร่วม (r) ตัวอย่าง 3, 6, 12, 24 …. มี r = 2 2, -4, 8, -16 … มี r = -2</li>
+
+<li>ลำดับหลายชั้น เป็นลำดับเลขอนุกรม มีค่าความแตกต่างระหว่างตัวเลขมีลักษณะเป็นเลขอนุกรมด้วย</li>
+<li>ลำดับเว้นระยะ เป็นลำดับเลขอนุกรม ซึ่งประกอบด้วยอนุกรมมากกว่า 1 ซ้อนกันอยู่ภายในโจทย์เดียวกัน</li>
+<li>ลำดับแบบมีค่าแตกต่างเป็นชุด เป็นลำดับอนุกรมที่เกิดจากค่าความแตกต่างที่เป็นชุด คือหลายตัวประกอบขึ้นมาและใช้ค่าแตกต่างที่เป็นชุดดังกล่าวในการพิจารณาเลขอนุกรมลำดับถัดไป</li>
+<li>ลำดับยกกำลัง เป็นลำดับเลขอนุกรม ซึ่งเกิดจากการยกกำลังของตัวเลขต่าง ๆ หรืออาจเกิดจากค่าความแตกต่างที่อาจเป็นเลขยกกำลัง</li>
+<li>อนุกรม คือ ผลจากการบวกสมาชิกทุกตัวของลำดับไม่จำกัดเข้าด้วยกัน โดยที่
+
+ถ้า a1, a2, a3, …, an เป็น ลำดับจำกัด ที่มี n พจน์ </li>
+<br>เราจะเรียกการเขียนแสดงผลบวกของพจน์ทุกพจน์ของลำดับในรูป a1 + a2 + a3 + … + an ว่า อนุกรมจำกัด<br>
+<br>และ ถ้า a1, a2, a3, …, an, … เป็น ลำดับอนันต์ จะเรียกการเขียนแสดงผลบวกในรูป a1 + a2 + a3 + … + an + … ว่า อนุกรมอนันต์<br>
+
+<br>จากอนุกรม a1 + a2 + a3 + … + an + … โดยทั่วไปจะเรียก<br>
+a1 ว่าพจน์ที่ 1 ของอนุกรม
+<br>
+a2 ว่าพจน์ที่ 2 ของอนุกรม
+<br>
+a3 ว่าพจน์ที่ 3 ของอนุกรม
+<br>
+an ว่าพจน์ที่ n ของอนุกรม
+
+
+
+
+
+<li>อนุกรมเลขคณิต คือ ผลบวกของลําดับเลขคณิต อธิบายได้ว่า</li>
+<br>เมื่อ a1, a1 + d, a1 + 2d, …, a1 + (n – 1)d เป็นลำดับเลขคณิต<br>
+<br>จะได้ a1 + (a1 + d) + (a1 + 2d) + … + (a1 + (n – 1)d) เป็นอนุกรมเลขคณิต<br>
+<br>ซึ่งมี a 1 เป็นพจน์แรกของอนุกรม และ d เป็นผลต่างร่วมของอนุกรมเลขคณิต ซึ่งจากบทนิยามจะได้ว่า<br>
+<br>ถ้า a1, a2, a3, …, an เป็น ลำดับเลขคณิต ที่มี n พจน์ <br>
+
+<br>เราจะเรียกการเขียนแสดงผลบวกของพจน์ทุกพจน์ของลำดับ a1 + a2 + a3 + … + an ว่า <br>
+
+<li>อนุกรมเลขคณิต และผลต่างร่วม ( d ) ของลำดับเลขคณิต เป็นผลต่างร่วมของอนุกรมเลขคณิตด้วย</li>
+<li>อนุกรมเรขาคณิต คือ ผลบวกของลําดับเรขาคณิต โดยอนุกรมที่ได้จากลำดับเรขาคณิตจะเรียกว่า </li>
+
+<li>อนุกรมเรขาคณิต และอัตราส่วนร่วมของลำดับเรขาคณิตจะเป็นอัตราส่วนร่วมของอนุกรมเรขาคณิตด้วย</li>
+<br>กำหนด a1, a1r, a1r2, …, a1r n-1 เป็นลำดับเรขาคณิต<br>
+<br>จะได้ a1 + a1r + a1r2 + … + a1r n-1 เป็นอนุกรมเรขาคณิต<br>
+<br>ซึ่งมี a1 เป็นพจน์แรก และ r เป็นอัตราส่วนร่วมของอนุกรมเรขาคณิต โดยจากบทนิยามจะได้ว่า<br>
+<br>ถ้า a1, a2, a3, …, an เป็นลำดับเรขาคณิตที่มี n พจน์ <br>
+
+<br>จะเรียกการเขียนแสดงผลบวกของพจน์ทุกพจน์ของลำดับในรูป a1 + a2 + a3 + … + an ว่า อนุกรมเรขาคณิต <br>
+<br>และอัตราส่วนร่วมของลำดับเรขาคณิต จะเป็นอัตราส่วนร่วมของอนุกรมเรขาคณิตด้วย<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

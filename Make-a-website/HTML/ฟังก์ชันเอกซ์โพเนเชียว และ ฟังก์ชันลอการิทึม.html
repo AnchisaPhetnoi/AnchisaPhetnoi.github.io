@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUT MATH</title>
+
+    <style>
+        /* Start Global Rules */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    a {
+      text-decoration: none;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /* Small */
+    @media (min-width: 768px) {
+      .container {
+        width: 750px;
+      }
+    }
+    /* Medium */
+    @media (min-width: 992px) {
+      .container {
+        width: 970px;
+      }
+      }
+    /* Large */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px;
+      }
+    }
+    /* End Global Rules */
+    
+    /* Start Landing Page */
+    .landing-page header {
+      min-height: 80px;
+      display: flex;
+    }
+    @media (max-width: 767px) {
+      .landing-page header {
+        min-height: auto;
+        display: initial;
+      }
+    }
+    .landing-page header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .container {
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+    .landing-page header .logo {
+      color: #5d5d5d;
+      font-style: italic;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+    .landing-page header .links {
+      display: flex;
+      align-items: center;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .links {
+        text-align: center;
+        gap: 10px;
+      }
+    }
+    .landing-page header .links li {
+      margin-left: 30px;
+      color: #5d5d5d;
+      cursor: pointer;
+      transition: .3s;
+    }
+    @media (max-width: 767px) {
+      .landing-page header .links li {
+        margin-left: auto;
+      }
+    }
+    .landing-page header .links li:last-child {
+      border-radius: 20px;
+      padding: 10px 20px;
+      color: #FFF;
+      background-color: #6c63ff;
+    }
+    .landing-page header .links li:not(:last-child):hover {
+      color: #6c63ff;
+    }
+    .landing-page .content .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 140px;
+      min-height: calc(100vh - 80px);
+    }
+    @media (max-width: 767px) {
+      .landing-page .content .container {
+        gap: 0;
+        min-height: calc(100vh - 101px);
+        justify-content: center;
+        flex-direction: column-reverse;
+      }
+    }
+    @media (max-width: 767px) {
+      .landing-page .content .info {
+        text-align: center;
+        margin-bottom: 15px 
+      }
+    }
+    .landing-page .content .info h1 {
+      color: #5d5d5d;
+      font-size: 44px;
+    }
+    .landing-page .content .info p {
+      margin: 0;
+      line-height: 1.6;
+      font-size: 15px;
+      color: #5d5d5d;
+    }
+    .landing-page .content .info button {
+      border: 0;
+      border-radius: 20px;
+      padding: 12px 30px;
+      margin-top: 30px;
+      cursor: pointer;
+      color: #FFF;
+      background-color: #6c63ff;
+    }
+    .landing-page .content .image img {
+      max-width: 100%;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+    
+    section {
+      margin-bottom: 20px;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    footer {
+      background-color: #fff;
+      color: #000;
+      padding: 20px;
+    }
+    /* End Landing Page */
+    /* กำหนด margin-bottom เพื่อให้มีช่องว่างด้านล่างของ ul */
+    ul {
+      margin-bottom: 20px; /* ปรับตามความต้องการ */
+    }
+     /* กำหนดสีของลิงก์ หน้าแรก แบบทดสอบ หมวดหมู่  คณิตศาสตร์ประยุคต์ 1 คณิตศาสตร์ประยุคต์ 2 เข้าสู่ระบบ เป็นขาว */
+a {
+            color: rgb(69, 68, 68);
+        }
+</style>
+
+
+
+</head>
+<body>
+    </html><!-- Start Landing Page -->
+    <div class="landing-page">
+      <header>
+        <div class="container">
+          <a href="#" class="logo">
+                  CUT 
+            <b>MATH</b></a>
+          <ul class="links">
+            <li><a title="หน้าหลัก" href="/Make-a-website/HTML/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%81.html"
+              target="_blank"> หน้าหลัก </a></li>
+            <li>แบบทดสอบ</li>
+            <li>หมวดหมู่</li>
+            <li><a title="เข้าสู่ระบบ" href="/Make-a-website/HTML/%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%B4%E0%B8%99.html#"
+              target="_blank">  เข้าสู่ระบบ </a></li>
+            
+         </ul>
+        </div>
+    </header>
+    <body>
+ 
+        <!-- ใช้ div เป็น container -->
+        <div class="container">
+          <!-- ใช้ div เป็นข้อความหรือเนื้อหา -->
+          <div class="content">  
+            <h1>ฟังก์ชันเอกซ์โพเนเชียว
+                และ ฟังก์ชันลอการิทึม</h1>
+                
+                
+               <br> 1.เลขยกกำลัง</br>
+                   <br> 1.1 เลขยกกำลังที่มีเลขชี้กำลังเป็นจำนวนเต็ม<br>
+                  <br>  1.2 รากที่สองในระบบจำนวนจริง รากที่ n ในระบบจำนวนจริง และจำนวนจริงในรูปกรณฑ์<br>
+                   <br> 1.3 เลขยกกำลังที่มีเลขชี้กำลังเป็นจำนวนตรรกยะ<br>
+                
+                
+                 <br> 2. ฟังก์ชันเอกซ์โพเนนเชียล<br>
+                 <br>3.ฟังก์ชันลอการิทึม<br>
+                <br> 4.การหาค่าลอการิทึม<br>
+               <br> 5.การเปลี่ยนฐานของลอการิทึม<br>
+               <br> 6.สมการและอสมการลอการิทึม<br>
+                <br>7.การประยุกต์ของฟังก์ชันเอกซ์โพเนนเชียลและฟังก์ชันลอการิทึม<br>
+
+
+                <h3>เลขยกกำลัง</h3>
+                <br>สมบัติของเลขยกกำลัง ให้ a,b,m และ n เป็นค่าคงที่ใดๆ<br>
+
+
+
+
+
+
+
+
+
+
+                <h3>ฟังก์ชันเอกโพเนนเชียล</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <h3>ฟังก์ชันลอการิทึม</h3>
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
